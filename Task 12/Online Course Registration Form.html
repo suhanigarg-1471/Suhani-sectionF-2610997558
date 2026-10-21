@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Registration Form</title>
+</head>
+<body>
+    <h1>Online Course Registration</h1>
+
+<form action="submit.html" target="_blank">
+
+    <label for="name">Student Name:</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+    <br><br>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <br><br>
+
+    <label for="mobile">Mobile Number:</label>
+    <input type="tel" id="mobile" placeholder="Enter mobile number" required>
+    <br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age">
+    <br><br>
+
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" required>
+    <br><br>
+
+    <label>Gender:</label><br>
+    <input value="a" type="radio" name="gender" required>
+    <label>Male</label><br>
+    <input value="a" type="radio" name="gender">
+    <label>Female</label><br>
+    <input value="a" type="radio" name="gender">
+    <label>Other</label>
+    <br><br>
+
+    <label>Skills:</label><br>
+    <input type="checkbox">
+    <label>HTML</label><br>
+    <input type="checkbox">
+    <label>CSS</label><br>
+    <input type="checkbox">
+    <label>JavaScript</label><br>
+    <input type="checkbox">
+    <label>Python</label>
+    <br><br>
+
+    <label>Course:</label>
+    <select required>
+        <option value="">Select Course</option>
+        <option>Web Development</option>
+        <option>Python Programming</option>
+        <option>Data Analytics</option>
+        <option>Digital Marketing</option>
+    </select>
+    <br><br>
+
+    <input type="hidden" value="Online Course Registration">
+
+   <label>Date of Birth:</label>
+    <input type="date">
+    <br><br>
+
+    <label>Preferred Class Time:</label>
+    <input type="time">
+    <br><br>
+
+    <label>Address / Additional Information:</label>
+    <br>
+    <textarea rows="4" cols="30" placeholder="Enter address"></textarea>
+    <br><br>
+
+    <label>Upload Document:</label>
+    <input type="file">
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>

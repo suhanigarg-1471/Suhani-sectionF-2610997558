@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1 align="center">World Map Explorer</h1>
+
+<img src="https://www.mapsnworld.com/world-map-hd-high-resolution.jpg"
+     usemap="#worldmap"
+     width="1000">
+
+<map name="worldmap">
+
+    <!-- USA (Rectangle) -->
+    <area shape="rect"
+          coords="120,150,280,250"
+          href="https://en.wikipedia.org/wiki/United_States"
+          alt="United States"
+          target="_blank">
+
+    <!-- India (Circle) -->
+    <area shape="circle"
+          coords="700,360,30"
+          href="https://en.wikipedia.org/wiki/India"
+          alt="India"
+          target="_blank">
+
+    <!-- Australia (Polygon) -->
+    <area shape="poly"
+          coords="750,440,800,420,870,440,900,490,850,530,780,520,740,480"
+          href="https://en.wikipedia.org/wiki/Australia"
+          alt="Australia"
+          target="_blank">
+
+    <!-- Default Area -->
+    <area shape="default"
+          href="https://en.wikipedia.org/wiki/World"
+          alt="World Map"
+          target="_blank">
+
+</map>
+</body>
+</html>
