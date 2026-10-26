@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Restaurant Menu</title>
+</head>
+<body style="background-color: bisque;">
+     <h1 align="center">Interactive Restaurant Menu</h1>
+
+    <img src="Restaurant image.png" usemap="#foodmap" width="1000" alt="Restaurant Menu">
+
+    <map name="foodmap">
+
+        <!-- Pizza (Circle) -->
+        <area shape="circle"
+              coords="192,264,106"
+              href="pizza.html"
+              alt="Pizza"
+              target="_blank">
+
+        <!-- Burger (Circle) -->
+        <area shape="circle"
+              coords="604,291,88"
+              href="burger.html"
+              alt="Burger"
+              target="_blank">
+
+        <!-- French Fries (Rect) -->
+        <area shape="rect"
+              coords="788,165,978,385"
+              href="fries.html"
+              alt="French Fries"
+              target="_blank">
+
+        <!-- Menu Card (Rect) -->
+        <area shape="rect"
+              coords="18,381,271,562"
+              href="menu.html"
+              alt="Menu Card"
+              target="_blank">
+
+        <!-- Sandwich (Poly) -->
+        <area shape="poly"
+              coords="350,380,485,325,590,425,500,540,350,505"
+              href="sandwich.html"
+              alt="Sandwich"
+              target="_blank">
+
+        <!-- Cake Slice (Poly) -->
+        <area shape="poly"
+              coords="780,415,956,415,993,520,870,562,745,524"
+              href="cake.html"
+              alt="Cake Slice"
+              target="_blank">
+
+        <!-- Remaining Area -->
+        <area shape="default"
+              href="other.html"
+              alt="Other Food Items"
+              target="_blank">
+
+    </map>
+</body>
+</html>
